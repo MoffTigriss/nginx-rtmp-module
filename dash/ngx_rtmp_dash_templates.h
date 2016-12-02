@@ -82,6 +82,10 @@
 #define NGX_RTMP_DASH_PERIOD_FOOTER                                            \
     "  </Period>\n"
 
+#define NGX_RTMP_DASH_MANIFEST_CLOCK                                           \ 
+    "  <UTCTiming schemeIdUri=\"urn:mpeg:dash:utc:%s:2014\"\n"                 \ 
+    "       value=\"%V\" />\n"
+
 #define NGX_RTMP_DASH_MANIFEST_FOOTER                                          \
     "</MPD>\n"
 
